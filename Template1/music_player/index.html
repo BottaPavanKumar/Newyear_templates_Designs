@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+        <button class="player__button player__button--absolute--nw playlist">
+        <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+        </button>
+        <button class="player__button player__button--absolute--center play">
+        <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+        <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+        </button>
+        <div class="slider__content">
+        <img class="img slider__img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <img class="img slider__img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <img class="img slider__img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <img class="img slider__img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <img class="img slider__img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <img class="img slider__img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <img class="img slider__img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        </div>
+        </div>
+        <div class="player__controls">
+        <button class="player__button back">
+        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+        </button>
+        <p class="player__context slider__context">
+        <strong class="slider__name"></strong>
+        <span class="player__title slider__title"></span>
+        </p>
+        <button class="player__button next">
+        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+        </button>
+        <div class="progres">
+        <div class="progres__filled"></div>
+        </div>
+        </div>
+        </div>
+        <ul class="player__playlist list">
+        <li class="player__song">
+        <img class="player__img img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">A</b>
+        <span class="flex">
+        <span class="player__title">Brahmastra</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="https://pagalfree.com/musics/128-Kesariya%20-%20Brahmastra%20128%20Kbps.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">A2</b>
+        <span class="flex">
+        <span class="player__title">Brahmastra</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="https://pagalfree.com/musics/128-Shiva%20Theme%20-%20Brahmastra%20128%20Kbps.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">A3</b>
+        <span class="flex">
+        <span class="player__title">Brahmastra</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="https://pagalfree.com/musics/128-Kissik%20-%20Pushpa%202%20The%20Rule%20128%20Kbps.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">A4</b>
+        <span class="flex">
+        <span class="player__title">Brahmastra</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="https://pagalfree.com/musics/128-Kaali%20Mahaa%20Kaali%20-%20Pushpa%202%20The%20Rule%20128%20Kbps.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <p class="player__context ">
+        <b class="player__song-name">A5</b>
+        <span class="flex">
+        <span class="player__title">Brahmastra</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+      <audio class="audio" src="https://pagalfree.com/musics/128-Angaaron%20-%20Pushpa%202%20The%20Rule%20128%20Kbps.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">A6</b>
+        <span class="flex">
+        <span class="player__title">Brahmastra</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+          <audio class="audio" src="https://pagalfree.com/musics/128-Peelings%20-%20Pushpa%202%20The%20Rule%20128%20Kbps.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="https://www.shutterstock.com/image-vector/p-letter-recycle-logo-vector-260nw-1999572875.jpg" alt="cover">
+        <p class="player__context ">
+        <b class="player__song-name">A7 <span class="uppercase">4am</span> remix</b>
+        <span class="flex">
+        <span class="player__title">Brahmastra</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+      <audio class="audio" src="https://pagalfree.com/musics/128-Pushpa%20Pushpa%20-%20Pushpa%202%20The%20Rule%20128%20Kbps.mp3"></audio>
+        </li>
+        </ul>
+        </div>
+        <!-- Javascript -->
+        <script src="app.js"></script>
+</body>
+</html>
