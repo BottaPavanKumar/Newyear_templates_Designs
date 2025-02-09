@@ -1,0 +1,9 @@
+https://github.com/emmabostian/developer-portfolios.git
+
+https://github.com/getify/You-Dont-Know-JS
+
+https://github.com/trekhleb/javascript-algorithms
+
+https://github.com/varadbhogayata
+
+https://gowthamrajk.github.io
